@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+}
+svg path {
+    fill: rgb(24, 151, 77);
+    stroke: black;
+    stroke-width: .3px;
+}
+svg path:hover {
+    fill: rgb(98, 192, 137)
+}
+svg {
+    padding: 20px;
+}
+.info-div {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.inside-info {
+    padding: 10px 20px;
+    background-color: rgb(69, 128, 180);
+    border-radius: 20px;
+}
